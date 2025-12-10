@@ -1,0 +1,19 @@
+[project]
+name = "tardy-pyutils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rachee", email = "git@rachee.dev" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "polars>=1.36.1",
+]
+
+[tool.uv.build-backend]
+module-name = ["data"]
+
+[build-system]
+requires = ["uv_build>=0.9.16,<0.10.0"]
+build-backend = "uv_build"
