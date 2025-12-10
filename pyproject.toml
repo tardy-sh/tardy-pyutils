@@ -11,8 +11,8 @@ dependencies = [
     "polars>=1.36.1",
 ]
 
-[tool.uv.build-backend]
-module-name = ["data"]
+# [tool.uv.build-backend]
+# module-name = ["data"]
 
 [build-system]
 requires = ["uv_build>=0.9.16,<0.10.0"]
