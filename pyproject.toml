@@ -1,16 +1,12 @@
 [project]
 name = "tardy-pyutils"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "Simple python utilities that I use again and again and prefer to keep in a single package"
 readme = "README.md"
-authors = [
-    { name = "rachee", email = "git@rachee.dev" }
-]
 requires-python = ">=3.11"
-dependencies = [
-    "polars>=1.36.1",
-]
 license-files = ["LICENSE.md"]
+authors = [{ name = "rachee", email = "git@rachee.dev" }]
+dependencies = ["polars>=1.36.1"]
 
 # [tool.uv.build-backend]
 # module-name = ["data"]
